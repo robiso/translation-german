@@ -1,4 +1,4 @@
-<p align="center"><img src="https://images.stanisic.nl/TExlzynm/TxGIzyuE.jpg" /></p>
+<p align="center"><img src="preview.jpg?v=4" /></p>
 <h1 align="center">language-de</h1>
 <p align="center">German translations for WonderCMS</p>
 
