@@ -1,7 +1,7 @@
 <p align="center"><img src="preview.jpg?v=4" /></p>
 <h1 align="center">language-de</h1>
 <p align="center">German translations for WonderCMS</p>
-<p align="center">Translation author: Maša Pogorevc</p>
+<p align="center">Translation author: Masha Pogorevc</p>
 
 <br><br>
 
