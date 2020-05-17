@@ -1,10 +1,10 @@
 <p align="center"><img src="preview.jpg?v=4" /></p>
 <h1 align="center">language-de</h1>
 <p align="center">German translations for WonderCMS</p>
+<p align="center">Translation author: Maša Pogorevc</p>
 
 <br><br>
 
-Translation author: Maša Pogorevc
 This plugin adds German translations to the WonderCMS Settings/admin area.
 
 ![](https://images.stanisic.nl/5oBG9Zaw/qU1dXIyr)
