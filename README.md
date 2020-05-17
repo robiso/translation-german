@@ -16,7 +16,7 @@ This plugin adds German translations to the WonderCMS Settings/admin area.
 
 ## How this works
 
-The translations are all in the nl_NL.csv file. Why in CVS? That's how all
+The translations are all in the de.csv file. Why in CVS? That's how all
 other major CMSes do it, so there must be a good reason for it.
 
 You will see something like this a lot: 
