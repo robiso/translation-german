@@ -55,8 +55,8 @@ SECURITY
     ">Admin login URL","> Admin-Login-URL"
     ">Save your login URL to log into your website next time:","> Speichern Sie Ihre Login-URL, um sich beim nächsten Mal auf Ihrer Website anzumelden:",
     ">Password","> Passwort"
-    ">Old password","Altes Passwort"
-    ">New password","Neues Passwort"
+    "Old password","Altes Passwort"
+    "New password","Neues Passwort"
     "> Change password","> Passwort ändern"
 
     "> How to restore backup","> So stellen Sie ein Backup wieder her",
