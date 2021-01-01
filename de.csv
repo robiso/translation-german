@@ -21,7 +21,7 @@ CURRENT PAGE
     ">Page keywords","> Schlüsselwörter"
     ">Page description","> Seitenbeschreibung"
     "> Delete page","> Seite löschen"
-    "return confirm\('Delete (.*?)\?'\)","return confirm('löschen $1?')"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Löschen $1?')"
 
 
 MENU
@@ -38,33 +38,33 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Nach Updates suchen"
-    "return confirm\('Remove (.*?)\?'\)","return confirm('löschen $1?')"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Löschen $1?')"
     ">Active","> Aktiv"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivieren $1?')"
     "> Activate","> Aktivieren"
-    "> More info",""> Mehr Informationen"
+    "> More info","> Mehr Informationen"
     "> Install","> Installieren"
     ">Installed version:","> Installierte Version:"
     ">Custom repository","> Benutzerdefiniertes Repository"
     "Enter URL to custom repository","URL zum Repository eingeben"
-    "> Add", "> Hinzufügen"
-    "> Read more about custom repositories","> Lesen Sie mehr über benutzerdefinierte Repositories“
+    "> Add","> Hinzufügen"
+    "> Read more about custom repositories","> Lesen Sie mehr über benutzerdefinierte Repositories"
 
 
 SECURITY
     ">Admin login URL","> Admin-Login-URL"
-    ">Save your login URL to log in to your website next time:","> Speichern Sie Ihre Login-URL, um sich beim nächsten Mal auf Ihrer Website anzumelden:",
+    ">Save your login URL to log in to your website next time:","> Speichern Sie Ihre Login-URL, um sich beim nächsten Mal auf Ihrer Website anzumelden:"
     ">Password","> Passwort"
     "Old password","Altes Passwort"
     "New password","Neues Passwort"
     "> Change password","> Passwort ändern"
 
-    "> How to restore backup","> So stellen Sie ein Backup wieder her",
+    "> How to restore backup","> So stellen Sie ein Backup wieder her"
     ">Improved security \(Apache only\)","> Verbesserte Sicherheit (nur Apache-Server)"
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> HTTPS-Umleitung, 30-Tage-Caching, Iframes nur von demselben Ursprung zulässig, Mime-Typ-Sniffing-Verhinderung, strengere Cookie- und Refferer-Richtlinien."
-    ">ON \(warning: may break your website\)","> ON \ (Warnung: kann Ihre Website brechen \)"
-    ">OFF \(reset htaccess to default\)", "> Off (zusätzliche Sicherheit zurücksetzen)"
-    "> Read more before enabling","> Lesen Sie mehr vor dem Aktivieren"
+    ">ON \(warning: may break your website\)","> EIN \(Warnung: kann Ihre Webseite brechen\)"
+    ">OFF \(reset htaccess to default\)","> AUS \(zusätzliche Sicherheit zurücksetzen\)"
+    "> Read more before enabling","> Lesen Sie mehr vor der Aktivierung"
     ">Backup","> Backup"
     "> Backup website","> Backup der Webseite"
     ">Last 5 logins","> Letzte 5 Anmeldungen"
@@ -73,7 +73,7 @@ SECURITY
 STATISTICS
     ">Statistics","> Statistik"
     ">Today",">Heute"
-    ">This week", ">Diese Woche"
+    ">This week",">Diese Woche"
     ">Most popular page","> Beliebteste Seite"
     ">Pageviews last two weeks","> Seitenaufrufe in den letzten zwei Wochen"
     ">Sessions last two weeks","> Sessions in den letzten zwei Wochen" 
