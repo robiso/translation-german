@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "translation-german": {
+            "name": "Translation German",
+            "repo": "https://github.com/robiso/translation-german/tree/master",
+            "zip": "https://github.com/robiso/translation-german/archive/master.zip",
+            "summary": "German language pack.",
+            "version": "3.0.2",
+            "image": "https://raw.githubusercontent.com/robiso/translation-german/master/preview.jpg"
+        }
+    }
+}
