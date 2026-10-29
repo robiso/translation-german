@@ -23,7 +23,7 @@ CURRENT PAGE
     ">Page description","> Seitenbeschreibung"
     "> Delete page","> Seite löschen"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Löschen $1?')"
-    "data-confirm=""Delete (.*?)\?""","data-confirm=""Löschen $1?"""
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""$1 löschen?"""
 
 
 MENU
@@ -48,10 +48,10 @@ THEMES AND PLUGINS
     "title=""Remove this repository from the list""","title=""Dieses Repository aus der Liste entfernen"""
     "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""$1 entfernen? Alles, was daraus installiert wurde, bleibt erhalten."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Löschen $1?')"
-    "data-confirm=""Remove (.*?)\?""","data-confirm=""Löschen $1?"""
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""$1 löschen?"""
     ">Active","> Aktiv"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivieren $1?')"
-    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktivieren $1?"""
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Theme $1 aktivieren?"""
     "data-confirm=""Disable (.*?)\?""","data-confirm=""$1 deaktivieren?"""
     "data-confirm=""This is an editor plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dies ist ein Editor-Plugin. Die Installation von $1 deaktiviert $2. Fortfahren?"""
     "data-confirm=""This is an translation plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dies ist ein Übersetzungs-Plugin. Die Installation von $1 deaktiviert $2. Fortfahren?"""
