@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> die Einstellungen"
+    "return confirm\('Log out\?'\)","return confirm('Abmelden?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Seitentitel"
     ">Page to display on homepage","> Seite, die auf der Startseite angezeigt werden soll"
     ">visit","> besuchen"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Seite privat machen (nur Sie sehen sie, solange Sie angemeldet sind)"""
+    "title=""Make page public""","title=""Seite öffentlich machen"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privat</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> öffentlich</a>"
     "> Add page","> Seite hinzufügen"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Nach Updates suchen"
+    "title=""Remove this repository from the list""","title=""Dieses Repository aus der Liste entfernen"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""$1 entfernen? Alles, was daraus installiert wurde, bleibt erhalten."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Löschen $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Löschen $1?"""
     ">Active","> Aktiv"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivieren $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktivieren $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""$1 deaktivieren?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dies ist ein $1-Plugin. Die Installation von $2 deaktiviert $3. Fortfahren?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Dies ist ein $1-Plugin. Die Aktualisierung von $2 lässt es aktiviert und deaktiviert $3. Fortfahren?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dies ist ein $1-Plugin. Die Aktivierung von $2 deaktiviert $3. Fortfahren?"""
     "> Activate","> Aktivieren"
     "> More info","> Mehr Informationen"
     "> Install","> Installieren"
     ">Installed version:","> Installierte Version:"
     ">Custom repository","> Benutzerdefiniertes Repository"
     "Enter URL to custom repository","URL zum Repository eingeben"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Das Hinzufügen unbekannter Module kann SEHR gefährlich sein. Möchten Sie wirklich fortfahren?')"
     "> Add","> Hinzufügen"
     "> Read more about custom repositories","> Lesen Sie mehr über benutzerdefinierte Repositories"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> HTTPS-Umleitung, 30-Tage-Caching, Iframes nur von demselben Ursprung zulässig, Mime-Typ-Sniffing-Verhinderung, strengere Cookie- und Refferer-Richtlinien."
     ">ON \(warning: may break your website\)","> EIN \(Warnung: kann Ihre Webseite brechen\)"
     ">OFF \(reset htaccess to default\)","> AUS \(zusätzliche Sicherheit zurücksetzen\)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Sind Sie sicher? Wenn SSL nicht korrekt eingerichtet ist, kann dies Ihre Website unbrauchbar machen.')"
     "> Read more before enabling","> Lesen Sie mehr vor der Aktivierung"
     ">Backup","> Backup"
     "> Backup website","> Backup der Webseite"
